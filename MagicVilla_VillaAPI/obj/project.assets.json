@@ -1469,6 +1469,39 @@
             "rid": "win"
           }
         }
+      },
+      "MagicVilla.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MagicVilla.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MagicVilla.Utility.dll": {}
+        }
+      },
+      "MagicVilla_Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MagicVilla_Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MagicVilla_Dto.dll": {}
+        }
+      },
+      "MagicVilla_Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MagicVilla.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MagicVilla_Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MagicVilla_Model.dll": {}
+        }
       }
     }
   },
@@ -3791,11 +3824,28 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MagicVilla.Utility/1.0.0": {
+      "type": "project",
+      "path": "../MagicVilla.Utility/MagicVilla.Utility.csproj",
+      "msbuildProject": "../MagicVilla.Utility/MagicVilla.Utility.csproj"
+    },
+    "MagicVilla_Dto/1.0.0": {
+      "type": "project",
+      "path": "../MagicVilla_Dto/MagicVilla_Dto.csproj",
+      "msbuildProject": "../MagicVilla_Dto/MagicVilla_Dto.csproj"
+    },
+    "MagicVilla_Model/1.0.0": {
+      "type": "project",
+      "path": "../MagicVilla_Model/MagicVilla_Model.csproj",
+      "msbuildProject": "../MagicVilla_Model/MagicVilla_Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "MagicVilla_Dto >= 1.0.0",
+      "MagicVilla_Model >= 1.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 8.0.0-preview.2.23153.2",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0-preview.2.23128.3",
@@ -3806,37 +3856,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gokul\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gokul\\OneDrive\\Desktop\\Dotnet-A\\API\\ASP.NET MicroService\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
       "projectName": "MagicVilla_VillaAPI",
-      "projectPath": "C:\\Users\\Gokul\\OneDrive\\Desktop\\Dotnet-A\\API\\ASP.NET MicroService\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
-      "packagesPath": "C:\\Users\\Gokul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gokul\\OneDrive\\Desktop\\Dotnet-A\\API\\ASP.NET MicroService\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI\\obj\\",
+      "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Gokul\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj"
+            },
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Model.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3903,7 +3955,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

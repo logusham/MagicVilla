@@ -23,6 +23,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(option => {
     });
 builder.Services.AddSingleton<ILogging, Logging>();
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
+builder.Services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
 builder.Services.AddAutoMapper(typeof(Profiles).Assembly);
 var app = builder.Build();
 

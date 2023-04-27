@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MagicVilla_Model/1.0.0": {
+        "dependencies": {
+          "MagicVilla.Utility": "1.0.0"
+        },
+        "runtime": {
+          "MagicVilla_Model.dll": {}
+        }
+      },
+      "MagicVilla.Utility/1.0.0": {
+        "runtime": {
+          "MagicVilla.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MagicVilla_Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MagicVilla.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

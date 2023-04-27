@@ -9,6 +9,8 @@
       "MagicVilla_VillaAPI/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "MagicVilla_Dto": "1.0.0",
+          "MagicVilla_Model": "1.0.0",
           "Microsoft.AspNetCore.JsonPatch": "8.0.0-preview.2.23153.2",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.2.23128.3",
@@ -890,6 +892,24 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "MagicVilla.Utility/1.0.0": {
+        "runtime": {
+          "MagicVilla.Utility.dll": {}
+        }
+      },
+      "MagicVilla_Dto/1.0.0": {
+        "runtime": {
+          "MagicVilla_Dto.dll": {}
+        }
+      },
+      "MagicVilla_Model/1.0.0": {
+        "dependencies": {
+          "MagicVilla.Utility": "1.0.0"
+        },
+        "runtime": {
+          "MagicVilla_Model.dll": {}
+        }
       }
     }
   },
@@ -1493,6 +1513,21 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "MagicVilla.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MagicVilla_Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MagicVilla_Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
