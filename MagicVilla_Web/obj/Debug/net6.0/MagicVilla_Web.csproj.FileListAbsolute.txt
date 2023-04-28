@@ -38,3 +38,4 @@ C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Dto.pdb
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Model.pdb
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.csproj.CopyComplete
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Newtonsoft.Json.dll
