@@ -7,14 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MagicVilla.Utility\MagicVilla.Utility.csproj" />
-    <ProjectReference Include="..\MagicVilla_Dto\MagicVilla_Dto.csproj" />
-    <ProjectReference Include="..\MagicVilla_Model\MagicVilla_Model.csproj" />
+    <ProjectReference Include="..\MagicVilla_Dtos\MagicVilla_Dtos.csproj" />
+    <ProjectReference Include="..\MagicVilla_Model\MagicVilla_Entity.csproj" />
+    <ProjectReference Include="..\MagicVilla_Service\MagicVilla_Service.csproj" />
   </ItemGroup>
 
 </Project>

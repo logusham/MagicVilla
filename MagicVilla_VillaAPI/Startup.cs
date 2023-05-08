@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MagicVilla_VillaAPI.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using SkillCheck.Middleware;
 
 namespace MagicVilla_VillaAPI
 {
@@ -48,15 +49,17 @@ namespace MagicVilla_VillaAPI
             {
                 app.UseExceptionHandler("/Error");
             }
-            app.UseCors();
+            //app.UseCors();
 
             app.UseHttpsRedirection();
 
-            app.UseAuthentication();
+            //app.UseAuthentication();
             //app.UseAuthorization();
+            app.UseCustomExceptionMiddleware();
 
-            app.UseRouting()
-                .UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app
+               .UseRouting()
+               .UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
 }

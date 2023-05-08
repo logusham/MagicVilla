@@ -85,7 +85,7 @@ namespace MagicVilla_VillaAPI.Controllers
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
-                if(await _villaRepo.GetAsync(x=> x.Id == villaNumberCreate.VillaId) != null)
+                if (await _villaRepo.GetAsync(x => x.Id == villaNumberCreate.VillaId) != null)
                 {
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
@@ -110,7 +110,7 @@ namespace MagicVilla_VillaAPI.Controllers
                 return Ok(_response);
             }
         }
-        [HttpDelete("{id:int}",Name ="DeleteVillaNumber")]
+        [HttpDelete("{id:int}", Name = "DeleteVillaNumber")]
         public async Task<ActionResult<APIResponse>> Delete(int id)
         {
             try

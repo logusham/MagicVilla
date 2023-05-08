@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla.Utility\\MagicVilla.Utility.csproj",
-      "projectName": "MagicVilla.Utility",
-      "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla.Utility\\MagicVilla.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla.Utility\\MagicVilla.U.csproj",
+      "projectName": "MagicVilla.U",
+      "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla.Utility\\MagicVilla.U.csproj",
       "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla.Utility\\obj\\",
       "projectStyle": "PackageReference",
@@ -56,11 +56,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }

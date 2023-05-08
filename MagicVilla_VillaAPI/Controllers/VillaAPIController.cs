@@ -1,29 +1,27 @@
 ﻿using AutoMapper;
-using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.Logger;
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_VillaAPI.Repository.IRepository;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace MagicVilla_VillaAPI.Controllers
 {
-    [Route("api/VillaAPI")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VillaAPIController : ControllerBase
     {
         private readonly IVillaRepository _repo;
-       // private readonly ILogging _logger;
+        // private readonly ILogging _logger;
         private readonly IMapper _mapper;
         protected APIResponse _response;
 
         public VillaAPIController(IVillaRepository repo, IMapper mapper)
         {
             _repo = repo;
-           // _logger = logging;
+            // _logger = logging;
             _mapper = mapper;
             this._response = new();
         }
@@ -94,8 +92,8 @@ namespace MagicVilla_VillaAPI.Controllers
                 }
                 if (await _repo.GetAsync(x => x.Name.ToLower() == villaDto.Name.ToLower()) != null)
                 {
-                   // ModelState.AddModelError("CustomError", "Villa already Exists!");
-                   _response.StatusCode = HttpStatusCode.BadRequest;
+                    // ModelState.AddModelError("CustomError", "Villa already Exists!");
+                    _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
                 if (villaDto == null)
