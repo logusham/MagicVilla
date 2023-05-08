@@ -1,9 +1,5 @@
-using AutoMapper;
-using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.DependencyInjection;
-using MagicVilla_VillaAPI.Repository;
-using MagicVilla_VillaAPI.Repository.IRepository;
-using Microsoft.EntityFrameworkCore;
+using MagicVilla_VillaAPI.Mapper;
 using Microsoft.OpenApi.Models;
 using SkillCheck.Middleware;
 
@@ -13,7 +9,6 @@ namespace MagicVilla_VillaAPI
     {
         public static void Main(string[] args)
         {
-            //CreateHostBuilder(args).Build().Run(); 
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -35,7 +30,7 @@ namespace MagicVilla_VillaAPI
                 });
             });
             builder.Services.AddDataBase(builder.Configuration)
-                .AddAutoMapper(typeof(Profile).Assembly)
+                .AddAutoMapper(typeof(Profiles).Assembly)
                 .AddDomainService();
 
             var app = builder.Build();
@@ -58,12 +53,6 @@ namespace MagicVilla_VillaAPI
             app.Run();
 
         }
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<Startup>();
-            });
     }
 }
 

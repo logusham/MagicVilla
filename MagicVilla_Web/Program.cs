@@ -1,14 +1,15 @@
+using MagicVilla_Service.IService;
+using MagicVilla_Service;
 using MagicVilla_VillaAPI.Mapper;
 using MagicVilla_VillaAPI.Repository;
-using MagicVilla_VillaAPI.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(Profiles).Assembly);
-builder.Services.AddHttpClient<IVillaRepository, VillaRepository>();
-builder.Services.AddScoped<IVillaRepository,VillaRepository>();
+builder.Services.AddHttpClient<IVillaService, VillaService>();
+builder.Services.AddScoped<IVillaService,VillaService>();
 
 var app = builder.Build();
 

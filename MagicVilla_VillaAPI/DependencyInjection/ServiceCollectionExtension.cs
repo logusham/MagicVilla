@@ -25,18 +25,18 @@ namespace MagicVilla_VillaAPI.DependencyInjection
         public static IServiceCollection AddDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             var isProduction = configuration.GetValue<bool>("InProduction");
-            if(isProduction)
+            if (isProduction)
             {
                 services.AddDbContext<ApplicationDbContext>(option =>
                 {
-                    option.UseSqlServer(configuration.GetConnectionString(""));
+                    option.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
                 });
             }
             else
             {
                 services.AddDbContext<ApplicationDbContext>(option =>
                 {
-                    option.UseSqlServer(configuration.GetConnectionString(""));
+                    option.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
                 });
             }
             return services;

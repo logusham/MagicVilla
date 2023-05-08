@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace MagicVilla_Service
 {
-    internal class VillaService : BaseService, IVillaService
+    public class VillaService : BaseService, IVillaService
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private string villaUrl;

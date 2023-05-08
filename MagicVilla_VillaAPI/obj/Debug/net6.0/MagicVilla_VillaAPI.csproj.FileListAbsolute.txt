@@ -408,3 +408,11 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\obj
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net6.0\MagicVilla_VillaAPI.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net6.0\MagicVilla_VillaAPI.genruntimeconfig.cache
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\obj\Debug\net6.0\ref\MagicVilla_VillaAPI.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

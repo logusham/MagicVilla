@@ -26,3 +26,4 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\refint\MagicVilla_Service.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\ref\MagicVilla_Service.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.Production.json

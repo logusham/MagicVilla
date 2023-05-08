@@ -154,3 +154,4 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debu
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_DataRepository.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\appsettings.Production.json
