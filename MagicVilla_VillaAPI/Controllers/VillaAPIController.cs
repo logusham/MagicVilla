@@ -108,6 +108,7 @@ namespace MagicVilla_VillaAPI.Controllers
                 //    return StatusCode(StatusCodes.Status500InternalServerError);
                 //}
                 Villa villa = _mapper.Map<Villa>(villaDto);
+                villa.CreatedDate = DateTime.UtcNow;
                 await _repo.CreateAsync(villa);
                 _response.Result = _mapper.Map<VillaDto>(villa);
                 _response.StatusCode = HttpStatusCode.OK;
@@ -141,7 +142,7 @@ namespace MagicVilla_VillaAPI.Controllers
                     _response.StatusCode = HttpStatusCode.NotFound;
                     return NotFound(_response);
                 }
-                _repo.RemoveAsync(villa);
+                await _repo.RemoveAsync(villa);
                 _response.StatusCode = HttpStatusCode.OK;
                 _response.IsSuccess = true;
                 return Ok(_response);
@@ -167,7 +168,7 @@ namespace MagicVilla_VillaAPI.Controllers
                     return BadRequest(_response);
                 }
                 Villa villa = _mapper.Map<Villa>(villaDto);
-                _repo.UpdateAsync(villa);
+                await _repo.UpdateAsync(villa);
                 _response.StatusCode = HttpStatusCode.OK;
                 _response.IsSuccess = true;
                 return Ok(_response);
