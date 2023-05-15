@@ -25,7 +25,7 @@ namespace MagicVilla_VillaAPI.Data
                     Rate = 200,
                     Sqft = 550,
                     Amenity = "",
-                    CreatedDate=DateTime.Now
+                    CreatedDate = DateTime.Now
                 }
                 );
         }

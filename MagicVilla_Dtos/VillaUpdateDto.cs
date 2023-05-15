@@ -15,5 +15,6 @@ namespace MagicVilla_VillaAPI.Models.Dtos
         public double Rate { get; set; }
         public string? ImageUrl { get; set; }
         public string? Amenity { get; set; }
+        public Guid Version { get; set; }
     }
 }
