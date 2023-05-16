@@ -60,7 +60,6 @@ namespace MagicVilla_DataRepository.Migrations
 
                     b.Property<Guid>("Version")
                         .IsConcurrencyToken()
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
