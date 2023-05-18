@@ -17,7 +17,6 @@ namespace MagicVilla_VillaAPI.Models
         public string? Amenity { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedData { get; set; }
-        [ConcurrencyCheck]
         public Guid Version { get; set; }
     }
 }

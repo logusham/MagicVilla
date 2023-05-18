@@ -171,28 +171,28 @@ namespace MagicVilla_VillaAPI.Controllers
                     _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
-                var checkVersion = _db.Villas.Where(x => x.Id == id).FirstOrDefault();
-                if (checkVersion.Version.Equals(villaDto.Version))
-                {
-                    var villa = await _repo.GetAsync(x => x.Id == id);
-                    villa.Name = villaDto.Name;
-                    villa.Occupancy = villaDto.Occupancy;
-                    villa.Version = Guid.NewGuid();
-                    villa.UpdatedData = DateTime.Now;
-                    await _repo.SaveAsync();
-                    //Villa villa = _mapper.Map<Villa>(villaDto);
-                    //await _repo.UpdateAsync(villa);
-                    _response.StatusCode = HttpStatusCode.OK;
-                    _response.IsSuccess = true;
-                    return Ok(_response);
-                }
-                else
-                {
-                    _response.IsSuccess = false;
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    _response.ErrorMessages = new List<string>() { "All Rady Updated" };
-                    return BadRequest(_response);
-                }
+                //var checkVersion = _db.Villas.Where(x => x.Id == id).FirstOrDefault();
+                //if (checkVersion.Version.Equals(villaDto.Version))
+                //{
+                //    var villa = await _repo.GetAsync(x => x.Id == id);
+                //    villa.Name = villaDto.Name;
+                //    villa.Occupancy = villaDto.Occupancy;
+                //    villa.Version = Guid.NewGuid();
+                //    villa.UpdatedData = DateTime.Now;
+                //    await _repo.SaveAsync();
+                Villa villa = _mapper.Map<Villa>(villaDto);
+                await _repo.UpdateAsync(villa);
+                _response.StatusCode = HttpStatusCode.OK;
+                _response.IsSuccess = true;
+                return Ok(_response);
+                //}
+                //else
+                //{
+                //    _response.IsSuccess = false;
+                //    _response.StatusCode = HttpStatusCode.BadRequest;
+                //    _response.ErrorMessages = new List<string>() { "All Rady Updated" };
+                //    return BadRequest(_response);
+                //}
             }
             catch (Exception ex)
             {
