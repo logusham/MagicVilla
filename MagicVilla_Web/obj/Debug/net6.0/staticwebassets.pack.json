@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\MagicVilla_Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
       "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\slide3.jpg",
+      "PackagePath": "staticwebassets\\images\\slide3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\slide4.jpg",
+      "PackagePath": "staticwebassets\\images\\slide4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\images\\slide5.jpg",
+      "PackagePath": "staticwebassets\\images\\slide5.jpg"
     },
     {
       "Id": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Web\\wwwroot\\js\\site.js",
