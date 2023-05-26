@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Utility", "Magic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{657B3687-AD85-47F7-8791-7AD13096ED85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_Service", "MagicVilla_Service\MagicVilla_Service.csproj", "{0D050EAE-2132-4585-9020-D110A3D6135A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Service", "MagicVilla_Service\MagicVilla_Service.csproj", "{0D050EAE-2132-4585-9020-D110A3D6135A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

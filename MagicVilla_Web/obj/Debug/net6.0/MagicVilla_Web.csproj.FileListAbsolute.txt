@@ -155,3 +155,10 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debu
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

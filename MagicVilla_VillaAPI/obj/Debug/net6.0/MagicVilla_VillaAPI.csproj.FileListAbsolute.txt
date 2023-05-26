@@ -416,3 +416,10 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_VillaAPI\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
