@@ -8,6 +8,6 @@ namespace MagicVilla_VillaAPI.Models.Dtos
         public int VillaNo { get; set; }
         [Required]
         public int VillaId { get; set; }
-        public string SpecialDetails { get; set; }
+        public string? SpecialDetails { get; set; }
     }
 }

@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using MagicVilla_Service;
 using MagicVilla_Service.IService;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_VillaAPI.Models;
 using Newtonsoft.Json;
 using MagicVilla_Dtos.VM;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MagicVilla_Web.Controllers
 {
@@ -33,12 +33,12 @@ namespace MagicVilla_Web.Controllers
         }
         public async Task<IActionResult> CreateVillaNumber()
         {
-            VillaNumberCreateVM villaNumberVM = new();
+            VillaNumberCreateVM villaNumberVM = new VillaNumberCreateVM();
             var response = await _villaService.GetAllAsync<APIResponse>();
             if (response != null && response.IsSuccess)
             {
                 villaNumberVM.VillaList = JsonConvert.DeserializeObject<List<VillaDto>>
-                    (Convert.ToString(response.Result)).Select(i => new System.Web.Mvc.SelectListItem
+                    (Convert.ToString(response.Result)).Select(i => new SelectListItem
                     {
                         Text = i.Name,
                         Value = i.Id.ToString(),
