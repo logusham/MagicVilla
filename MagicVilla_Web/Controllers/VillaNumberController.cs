@@ -60,31 +60,31 @@ namespace MagicVilla_Web.Controllers
             }
             return View(model);
         }
-        //public async Task<IActionResult> UpdateVillaNumber(int villaNumberId)
-        //{
-        //    var response = await _villaService.GetAsync<APIResponse>(villaNumberId);
-        //    if (response != null && response.IsSuccess)
-        //    {
-        //        VillaNumberDto model = JsonConvert.DeserializeObject<VillaNumberDto>(Convert.ToString(response.Result));
-        //        return View(_mapper.Map<VillaNumberUpdateDto>(model));
-        //    }
-        //    return NotFound();
-        //}
+        public async Task<IActionResult> UpdateVillaNumber(int villaNumberId)
+        {
+            var response = await _villaNumberService.GetAsync<APIResponse>(villaNumberId);
+            if (response != null && response.IsSuccess)
+            {
+                VillaNumberDto model = JsonConvert.DeserializeObject<VillaNumberDto>(Convert.ToString(response.Result));
+                return View(_mapper.Map<VillaNumberUpdateDto>(model));
+            }
+            return NotFound();
+        }
 
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> UpdateVillaNumber(VillaNumberUpdateDto model)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var response = await _villaService.UpdateAsync<APIResponse>(model);
-        //        if (response != null && response.IsSuccess)
-        //        {
-        //            return RedirectToAction(nameof(IndexVillaNumber));
-        //        }
-        //    }
-        //    return View(model);
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateVillaNumber(VillaNumberUpdateDto model)
+        {
+            if (ModelState.IsValid)
+            {
+                var response = await _villaNumberService.UpdateAsync<APIResponse>(model);
+                if (response != null && response.IsSuccess)
+                {
+                    return RedirectToAction(nameof(IndexVillaNumber));
+                }
+            }
+            return View(model);
+        }
 
         //public async Task<IActionResult> DeleteVillaNumber(int villaNumberId)
         //{
