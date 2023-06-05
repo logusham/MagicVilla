@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MagicVilla_DataRepository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230509074346_Update Nullable")]
-    partial class UpdateNullable
+    [Migration("20230515080409_Add Concurrency")]
+    partial class AddConcurrency
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -61,24 +61,13 @@ namespace MagicVilla_DataRepository.Migrations
                     b.Property<DateTime>("UpdatedData")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("Version")
+                        .IsConcurrencyToken()
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.ToTable("Villas");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Amenity = "",
-                            CreatedDate = new DateTime(2023, 5, 9, 13, 13, 46, 231, DateTimeKind.Local).AddTicks(7767),
-                            Details = "Fusce 11 tincidunt maximus leo",
-                            ImageUrl = "https://th.bing.com/th/id/OIP.995V-2MsmR9OdZqidvyDiAHaE1?pid=ImgDet&rs=1",
-                            Name = "Royal Villa",
-                            Occupancy = 5,
-                            Rate = 200.0,
-                            Sqft = 550,
-                            UpdatedData = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("MagicVilla_VillaAPI.Models.VillaNumber", b =>

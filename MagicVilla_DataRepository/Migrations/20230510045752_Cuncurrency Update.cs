@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MagicVilla_DataRepository.Migrations
 {
     /// <inheritdoc />
-    public partial class MagicVilla : Migration
+    public partial class CuncurrencyUpdate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,12 +18,12 @@ namespace MagicVilla_DataRepository.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Details = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Details = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Rate = table.Column<double>(type: "float", nullable: false),
                     Sqft = table.Column<int>(type: "int", nullable: false),
                     Occupancy = table.Column<int>(type: "int", nullable: false),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Amenity = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Amenity = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedData = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -52,11 +52,6 @@ namespace MagicVilla_DataRepository.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.InsertData(
-                table: "Villas",
-                columns: new[] { "Id", "Amenity", "CreatedDate", "Details", "ImageUrl", "Name", "Occupancy", "Rate", "Sqft", "UpdatedData" },
-                values: new object[] { 1, "", new DateTime(2023, 5, 8, 16, 49, 18, 370, DateTimeKind.Local).AddTicks(9251), "Fusce 11 tincidunt maximus leo", "https://th.bing.com/th/id/OIP.995V-2MsmR9OdZqidvyDiAHaE1?pid=ImgDet&rs=1", "Royal Villa", 5, 200.0, 550, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_VillaNumbers_VillaId",

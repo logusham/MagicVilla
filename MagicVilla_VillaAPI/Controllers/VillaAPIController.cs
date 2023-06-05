@@ -196,7 +196,7 @@ namespace MagicVilla_VillaAPI.Controllers
             VillaUpdateDto villaDto = _mapper.Map<VillaUpdateDto>(villa);
             patch.ApplyTo(villaDto, ModelState);
             Villa model = _mapper.Map<Villa>(villaDto);
-            _repo.UpdateAsync(model);
+            await _repo.UpdateAsync(model);
             await _repo.SaveAsync();
             if (!ModelState.IsValid)
             {
