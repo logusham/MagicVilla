@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj": {}
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj",
         "projectName": "MagicVilla_DataRepository",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
         "projectName": "MagicVilla_Dtos",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj",
         "projectName": "MagicVilla_Entity",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
               }
             }
           }
@@ -189,14 +189,14 @@
         }
       }
     },
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
         "projectName": "MagicVilla_Service",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,17 +213,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
               },
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
               },
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
               },
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj",
         "projectName": "MagicVilla_Utility",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -318,14 +318,14 @@
         }
       }
     },
-    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
         "projectName": "MagicVilla_VillaAPI",
-        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -342,11 +342,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj"
               },
-              "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
-                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
+              "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
+                "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
               }
             }
           }

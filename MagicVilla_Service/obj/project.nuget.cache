@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mo4hM6//pGogtSxJNGlTdjJQPSkPXg2QTfVzmjJPDTeMhlsO8BM7zh6CFGda+ewsPYKkKsrAyO5gBd62GE7YVA==",
+  "dgSpecHash": "zs9DAt5qmM/pER1u2VvHQ5g43oxjuPoqCvnYHX1tVbz2Dy5sYJkrOf1BTvJMaDCoQiaepqwQnXKQieKPfPIs1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+  "projectFilePath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TEMP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
