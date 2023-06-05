@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj": {}
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj": {
+    "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj",
+        "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj",
         "projectName": "MagicVilla_Dto",
-        "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj",
+        "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\MagicVilla_Dto.csproj",
         "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\obj\\",
+        "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
