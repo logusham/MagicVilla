@@ -1,29 +1,27 @@
 ﻿using AutoMapper;
-using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.Logger;
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_VillaAPI.Repository.IRepository;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace MagicVilla_VillaAPI.Controllers
 {
-    [Route("api/VillaAPI")]
+    [Route("api/[controller]")]
     [ApiController]
     public class VillaAPIController : ControllerBase
     {
         private readonly IVillaRepository _repo;
-       // private readonly ILogging _logger;
+        // private readonly ILogging _logger;
         private readonly IMapper _mapper;
         protected APIResponse _response;
 
         public VillaAPIController(IVillaRepository repo, IMapper mapper)
         {
             _repo = repo;
-           // _logger = logging;
+            // _logger = logging;
             _mapper = mapper;
             this._response = new();
         }
@@ -94,8 +92,8 @@ namespace MagicVilla_VillaAPI.Controllers
                 }
                 if (await _repo.GetAsync(x => x.Name.ToLower() == villaDto.Name.ToLower()) != null)
                 {
-                   // ModelState.AddModelError("CustomError", "Villa already Exists!");
-                   _response.StatusCode = HttpStatusCode.BadRequest;
+                    // ModelState.AddModelError("CustomError", "Villa already Exists!");
+                    _response.StatusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
                 if (villaDto == null)
@@ -110,6 +108,7 @@ namespace MagicVilla_VillaAPI.Controllers
                 //    return StatusCode(StatusCodes.Status500InternalServerError);
                 //}
                 Villa villa = _mapper.Map<Villa>(villaDto);
+                villa.CreatedDate = DateTime.UtcNow;
                 await _repo.CreateAsync(villa);
                 _response.Result = _mapper.Map<VillaDto>(villa);
                 _response.StatusCode = HttpStatusCode.OK;
@@ -143,7 +142,7 @@ namespace MagicVilla_VillaAPI.Controllers
                     _response.StatusCode = HttpStatusCode.NotFound;
                     return NotFound(_response);
                 }
-                _repo.RemoveAsync(villa);
+                await _repo.RemoveAsync(villa);
                 _response.StatusCode = HttpStatusCode.OK;
                 _response.IsSuccess = true;
                 return Ok(_response);
@@ -169,7 +168,7 @@ namespace MagicVilla_VillaAPI.Controllers
                     return BadRequest(_response);
                 }
                 Villa villa = _mapper.Map<Villa>(villaDto);
-                _repo.UpdateAsync(villa);
+                await _repo.UpdateAsync(villa);
                 _response.StatusCode = HttpStatusCode.OK;
                 _response.IsSuccess = true;
                 return Ok(_response);
@@ -197,7 +196,7 @@ namespace MagicVilla_VillaAPI.Controllers
             VillaUpdateDto villaDto = _mapper.Map<VillaUpdateDto>(villa);
             patch.ApplyTo(villaDto, ModelState);
             Villa model = _mapper.Map<Villa>(villaDto);
-            _repo.UpdateAsync(model);
+            await _repo.UpdateAsync(model);
             await _repo.SaveAsync();
             if (!ModelState.IsValid)
             {
