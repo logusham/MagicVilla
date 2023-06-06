@@ -50,8 +50,8 @@ namespace MagicVilla_VillaAPI.Controllers
             {
                 if (id <= 0)
                 {
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    return Ok(_response);
+                    ModelState.AddModelError("ErrorMessages", "Enter Valid Villa Id!");
+                    return BadRequest(ModelState);
                 }
                 var villaNumber = await _villaNumberRepo.GetAsync(x => x.VillaNo == id);
                 if (villaNumber == null)
@@ -75,25 +75,19 @@ namespace MagicVilla_VillaAPI.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    return BadRequest(_response);
-                }
                 if (await _villaNumberRepo.GetAsync(x => x.VillaNo == villaNumberCreate.VillaNo) != null)
                 {
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    return BadRequest(_response);
+                    ModelState.AddModelError("ErrorMessages", "This Villa Number already Exists!");
+                    return BadRequest(ModelState);
                 }
                 if (await _villaRepo.GetAsync(x => x.Id == villaNumberCreate.VillaId) == null)
                 {
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    return BadRequest(_response);
+                    ModelState.AddModelError("ErrorMessages", "This Villa Id is invalid!");
+                    return BadRequest(ModelState);
                 }
                 if (villaNumberCreate == null)
                 {
                     _response.StatusCode = HttpStatusCode.BadRequest;
-                    //_response.Result = villaNumberCreate;
                     return BadRequest(_response);
                 }
                 VillaNumber villaNumber = _mapper.Map<VillaNumber>(villaNumberCreate);
@@ -117,8 +111,8 @@ namespace MagicVilla_VillaAPI.Controllers
             {
                 if (id <= 0)
                 {
-                    _response.StatusCode = HttpStatusCode.BadRequest;
-                    return BadRequest(_response);
+                    ModelState.AddModelError("ErrorMessages", "Enter Valid Villa Id!");
+                    return BadRequest(ModelState);
                 }
                 var villaNumber = await _villaNumberRepo.GetAsync(x => x.VillaNo == id);
                 if (villaNumber == null)
