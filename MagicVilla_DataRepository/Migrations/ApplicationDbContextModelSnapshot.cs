@@ -22,6 +22,35 @@ namespace MagicVilla_DataRepository.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("MagicVilla_Entity.LocalUser", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LocalUsers");
+                });
+
             modelBuilder.Entity("MagicVilla_VillaAPI.Models.Villa", b =>
                 {
                     b.Property<int>("Id")
@@ -67,7 +96,7 @@ namespace MagicVilla_DataRepository.Migrations
                         {
                             Id = 1,
                             Amenity = "",
-                            CreatedDate = new DateTime(2023, 5, 19, 17, 42, 47, 75, DateTimeKind.Local).AddTicks(2328),
+                            CreatedDate = new DateTime(2023, 6, 6, 14, 12, 35, 653, DateTimeKind.Local).AddTicks(5581),
                             Details = "Fusce 11 tincidunt maximus leo",
                             ImageUrl = "https://th.bing.com/th/id/OIP.995V-2MsmR9OdZqidvyDiAHaE1?pid=ImgDet&rs=1",
                             Name = "Royal Villa",

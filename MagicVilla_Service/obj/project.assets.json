@@ -1871,6 +1871,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "MagicVilla_Dtos": "1.0.0",
           "MagicVilla_Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
         },
@@ -1885,6 +1886,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "MagicVilla_Entity": "1.0.0",
           "Microsoft.AspNet.Mvc": "5.2.9",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "edvoHE6ib8AfumgEwKrg91JjnNTleOn9fMnfXT9v4zS/qC2OanSyHr3QOxzGa+ZuaTYn4DslU+3hHdY5ii4+Ww==",
+  "dgSpecHash": "O9Q2UhONBow27igjj+xns0PLEEaSdWHsNrMS0qaLMLqgvW/Mm2jKxgpDs0TBPO0iMcGWaf4rISbvPRbTEjKcxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Model.csproj",
+  "projectFilePath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

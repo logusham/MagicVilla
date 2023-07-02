@@ -36,3 +36,5 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataReposito
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\MagicVilla_DataRepository.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\MagicVilla_DataRepository.genruntimeconfig.cache
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\ref\MagicVilla_DataRepository.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.dll
+C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.pdb
