@@ -10,3 +10,15 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\refint\MagicVilla_Utility.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\ref\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\bin\Debug\net6.0\MagicVilla_Utility.deps.json
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\bin\Debug\net6.0\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\bin\Debug\net6.0\MagicVilla_Utility.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.csproj.AssemblyReference.cache
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.AssemblyInfoInputs.cache
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.AssemblyInfo.cs
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\refint\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\MagicVilla_Utility.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Utility\obj\Debug\net6.0\ref\MagicVilla_Utility.dll

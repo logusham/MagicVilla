@@ -1,7 +1,7 @@
 ﻿using MagicVilla_DataRepository.DataRepository.Implementation;
 using MagicVilla_DataRepository.DataRepository.Interface;
 using MagicVilla_VillaAPI.Data;
-//using MagicVilla_VillaAPI.Logger;
+using MagicVilla_VillaAPI.Logger;
 using MagicVilla_VillaAPI.Repository;
 using MagicVilla_VillaAPI.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +18,7 @@ namespace MagicVilla_VillaAPI.DependencyInjection
         }
         public static IServiceCollection AddDomainService(this IServiceCollection services)
         {
-            //services.AddSingleton<ILogging, Logging>();
+            services.AddSingleton<ILogging, Logging>();
 
             services.AddScoped<IVillaRepository, VillaRepository>();
             services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();

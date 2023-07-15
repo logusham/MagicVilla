@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7j0bUADvte+riHjmu1DIkk5wd6+9Kuprb7I4/iBmlwbZIB7/Q+HLAVBnRu7sTu46Xkng103S9EtDE3gpkMSt4A==",
+  "dgSpecHash": "TuyQMtlLnpHekp/1uWlYy4+K78OHdL12irDH7jv4+LFyyZlpU2w58mj+sitbl+jgdYijtak+rBkTYqDJhJwrGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+  "projectFilePath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TEMP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -13,6 +13,7 @@
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.9\\microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\TEMP\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",

@@ -27,3 +27,8 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Deb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Entity.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Utility.pdb
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\obj\Debug\net6.0\MagicVilla_Dtos.csproj.CopyComplete
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Entity.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Entity.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\bin\Debug\net6.0\MagicVilla_Utility.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Dtos\obj\Debug\net6.0\MagicVilla_Dtos.csproj.CopyComplete

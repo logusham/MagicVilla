@@ -176,6 +176,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authorization/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1927,6 +1946,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "MagicVilla_DataRepository": "1.0.0",
           "MagicVilla_Dtos": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.1",
           "Microsoft.AspNetCore.JsonPatch": "8.0.0-preview.2.23153.2",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.15",
           "Serilog.AspNetCore": "6.1.1-dev-00295",
@@ -2092,6 +2112,21 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.1": {
+      "sha512": "5LDZ36RYl/31dRl807Ad1WV3GwaYprYyPu6+pjTkjpjsv/e2wIs7/VMtcp04RKIjO9oANcvCahZWX1zpH2+tHg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/2.2.0": {
@@ -4953,11 +4988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
       "projectName": "MagicVilla_Service",
-      "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
+      "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\MagicVilla_Service.csproj",
       "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\obj\\",
+      "outputPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4974,17 +5009,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
             },
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
             },
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Utility\\MagicVilla_Utility.csproj"
             },
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj"
+            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj": {
+              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj"
             }
           }
         }

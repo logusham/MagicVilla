@@ -3,6 +3,7 @@ using MagicVilla_VillaAPI.Logger;
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_VillaAPI.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -14,14 +15,16 @@ namespace MagicVilla_VillaAPI.Controllers
     public class VillaAPIController : ControllerBase
     {
         private readonly IVillaRepository _repo;
-        // private readonly ILogging _logger;
+         private readonly ILogging _loging;
+        private readonly ILogger<VillaAPIController> _logger;
         private readonly IMapper _mapper;
         protected APIResponse _response;
 
-        public VillaAPIController(IVillaRepository repo, IMapper mapper)
+        public VillaAPIController(IVillaRepository repo, IMapper mapper, ILogging logging,ILogger<VillaAPIController> logger)
         {
             _repo = repo;
-            // _logger = logging;
+            _loging = logging;
+            _logger = logger;
             _mapper = mapper;
             this._response = new();
         }
@@ -29,7 +32,9 @@ namespace MagicVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
-            //_logger.Log("Getting All Villas", "");
+            _loging.Log("Getting All Villas", "error");
+            _logger.LogInformation("Getting All Villas");
+
             try
             {
                 var villa = await _repo.GetAllAsync();

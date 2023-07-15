@@ -7,10 +7,8 @@ C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\De
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_DataRepository.runtimeconfig.json
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_DataRepository.dll
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_DataRepository.pdb
-C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla.Utility.dll
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Entity.dll
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Entity.pdb
-C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla.Utility.pdb
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\MagicVilla_DataRepository.csproj.CopyComplete
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\MagicVilla_DataRepository.dll
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\refint\MagicVilla_DataRepository.dll
@@ -38,3 +36,7 @@ C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataReposito
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\obj\Debug\net6.0\ref\MagicVilla_DataRepository.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.dll
 C:\Users\TEMP\OneDrive\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Utility.dll
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Dtos.pdb
+C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_DataRepository\bin\Debug\net6.0\MagicVilla_Utility.pdb
