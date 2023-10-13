@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>MagicVilla_DataRepository</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>872dcd4f-6336-4981-8d46-216584446316</ProjectGuid>
+  <FullPath>C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\MagicVilla_DataRepository.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\.sonarqube\conf\3\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\.sonarqube\out\3\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\.sonarqube\out\3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net6.0</TargetFramework>
+</ProjectInfo>

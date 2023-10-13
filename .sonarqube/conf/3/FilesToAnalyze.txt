@@ -1,0 +1,18 @@
+﻿C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataAccess\ApplicationDbContext.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\GenericRepository\IRepository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\GenericRepository\Repository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Implementation\UnitOfWork.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Implementation\VillaNumberRepository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Implementation\VillaRepository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Interface\IUnitOfWork.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Interface\IVillaNumberRepository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\DataRepository\Interface\IVillaRepository.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230510045752_Cuncurrency Update.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230510045752_Cuncurrency Update.Designer.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515080409_Add Concurrency.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515080409_Add Concurrency.Designer.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515115228_Concurrency.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515115228_Concurrency.Designer.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515121558_Concurrency New.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\20230515121558_Concurrency New.Designer.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_DataRepository\Migrations\ApplicationDbContextModelSnapshot.cs

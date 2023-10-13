@@ -1,0 +1,5 @@
+﻿C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Model\APIRequest.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Model\APIResponse.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Model\ErrorResponse.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Model\Villa.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Model\VillaNumber.cs

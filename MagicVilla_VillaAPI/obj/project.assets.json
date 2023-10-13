@@ -4428,19 +4428,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
+    "C:\\Users\\s1124\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
       "projectName": "MagicVilla_VillaAPI",
-      "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
-      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_VillaAPI\\obj\\",
+      "projectPath": "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_VillaAPI\\MagicVilla_VillaAPI.csproj",
+      "packagesPath": "C:\\Users\\s1124\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_VillaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s1124\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4454,11 +4454,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj"
+            "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj": {
+              "projectPath": "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_DataRepository\\MagicVilla_DataRepository.csproj"
             },
-            "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\OneDrive\\Desktop\\Logesh\\Dot Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
+            "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj": {
+              "projectPath": "C:\\Users\\s1124\\OneDrive - sbnasoftware.com\\Desktop\\ASP.Net\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj"
             }
           }
         }
@@ -4523,7 +4523,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

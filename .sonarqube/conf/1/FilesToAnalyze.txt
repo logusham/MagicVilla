@@ -1,0 +1,6 @@
+﻿C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaCreateDto.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaDto.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaNumberCreateDto.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaNumberDto.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaNumberUpdateDto.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Dtos\VillaUpdateDto.cs
