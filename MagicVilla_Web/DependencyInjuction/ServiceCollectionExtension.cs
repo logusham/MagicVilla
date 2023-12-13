@@ -9,8 +9,13 @@ namespace MagicVilla_Web.DependencyInjuction
         {
             services.AddHttpClient<IVillaService, VillaService>();
             services.AddScoped<IVillaService, VillaService>();
+
             services.AddHttpClient<IVillaNumberService, VillaNumberService>();
             services.AddScoped<IVillaNumberService, VillaNumberService>();
+
+            services.AddHttpClient<IAuthService, AuthService>();
+            services.AddScoped<IAuthService, AuthService>();
+
             return services;
         }
     }

@@ -6,9 +6,11 @@ using Newtonsoft.Json;
 using MagicVilla_Dtos.VM;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MagicVilla_Web.Controllers
 {
+    [Authorize(Roles = "admin")]
     public class VillaNumberController : Controller
     {
         private readonly IVillaNumberService _villaNumberService;
@@ -21,6 +23,7 @@ namespace MagicVilla_Web.Controllers
             _mapper = mapper;
             _villaService = villaService;
         }
+        [AllowAnonymous]
         public async Task<IActionResult> IndexVillaNumber()
         {
             List<VillaNumberDto> list = new();

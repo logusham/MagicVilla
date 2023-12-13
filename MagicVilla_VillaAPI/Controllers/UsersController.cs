@@ -7,7 +7,7 @@ using System.Net;
 
 namespace MagicVilla_VillaAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/UsersAuth")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -19,8 +19,8 @@ namespace MagicVilla_VillaAPI.Controllers
             this._response = new() ;
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> login([FromBody] LoginRequestDto model)
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto model)
         {
             var loginResponce = await _userRepo.Login(model);
             if (loginResponce.User == null || string.IsNullOrEmpty(loginResponce.Token))
@@ -35,7 +35,7 @@ namespace MagicVilla_VillaAPI.Controllers
             _response.Result = loginResponce;
             return Ok(_response);
         }
-        [HttpPost("register")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] RegisterationRequestDto model)
         {
             bool ifUserNameUnique = _userRepo.IsUniqueUser(model.UserName);

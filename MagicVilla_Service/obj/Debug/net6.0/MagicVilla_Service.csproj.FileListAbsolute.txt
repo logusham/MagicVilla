@@ -56,3 +56,62 @@ C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\refint\MagicVilla_Service.dll
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.pdb
 C:\Users\TEMP\Desktop\DotNet Project\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\ref\MagicVilla_Service.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.Production.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.deps.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.runtimeconfig.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.exe
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.deps.json
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_DataRepository.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Dtos.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Entity.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Utility.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Dtos.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Entity.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Utility.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_DataRepository.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.AssemblyReference.cache
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.AssemblyInfoInputs.cache
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.AssemblyInfo.cs
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.CoreCompileInputs.cache
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.CopyComplete
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\refint\MagicVilla_Service.dll
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.pdb
+C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\ref\MagicVilla_Service.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.Development.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\appsettings.Production.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.deps.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.runtimeconfig.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.exe
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.deps.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Service.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_DataRepository.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Dtos.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Entity.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Utility.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Dtos.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Entity.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_Utility.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_VillaAPI.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\bin\Debug\net6.0\MagicVilla_DataRepository.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.AssemblyReference.cache
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.AssemblyInfoInputs.cache
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.AssemblyInfo.cs
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.CoreCompileInputs.cache
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.sourcelink.json
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.csproj.CopyComplete
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\refint\MagicVilla_Service.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\MagicVilla_Service.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Service\obj\Debug\net6.0\ref\MagicVilla_Service.dll

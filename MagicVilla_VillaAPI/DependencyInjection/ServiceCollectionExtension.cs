@@ -2,9 +2,13 @@
 using MagicVilla_DataRepository.DataRepository.Interface;
 using MagicVilla_VillaAPI.Data;
 using MagicVilla_VillaAPI.Logger;
+using MagicVilla_VillaAPI.Mapper;
 using MagicVilla_VillaAPI.Repository;
 using MagicVilla_VillaAPI.Repository.IRepository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace MagicVilla_VillaAPI.DependencyInjection
 {
@@ -23,6 +27,28 @@ namespace MagicVilla_VillaAPI.DependencyInjection
             services.AddScoped<IVillaRepository, VillaRepository>();
             services.AddScoped<IVillaNumberRepository, VillaNumberRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            return services;
+        }
+        public static IServiceCollection AddSecurity(this IServiceCollection services, IConfiguration configuration)
+        {
+            var key = configuration.GetValue<string>("ApiSettings:Secret");
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                };
+            });
             return services;
         }
         public static IServiceCollection AddDbContext(this IServiceCollection services, IConfiguration configuration)

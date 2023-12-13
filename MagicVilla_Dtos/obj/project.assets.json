@@ -4200,19 +4200,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
+    "C:\\Users\\s1124\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
+      "projectUniqueName": "D:\\ASP.Net\\WorkSpace\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
       "projectName": "MagicVilla_Dtos",
-      "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
-      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Dtos\\obj\\",
+      "projectPath": "D:\\ASP.Net\\WorkSpace\\MagicVilla\\MagicVilla_Dtos\\MagicVilla_Dtos.csproj",
+      "packagesPath": "C:\\Users\\s1124\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP.Net\\WorkSpace\\MagicVilla\\MagicVilla_Dtos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s1124\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4226,8 +4231,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
-              "projectPath": "C:\\Users\\TEMP\\Desktop\\DotNet Project\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
+            "D:\\ASP.Net\\WorkSpace\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj": {
+              "projectPath": "D:\\ASP.Net\\WorkSpace\\MagicVilla\\MagicVilla_Model\\MagicVilla_Entity.csproj"
             }
           }
         }
@@ -4267,7 +4272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },

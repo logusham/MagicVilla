@@ -67,27 +67,10 @@ namespace MagicVilla_VillaAPI
             //    //});
             //}
             );
-            var key = builder.Configuration.GetValue<string>("ApiSettings:Secret");
+
             builder.Services.AddDataBase(builder.Configuration)
                 .AddAutoMapper(typeof(Profiles).Assembly)
-                .AddDomainService();
-            builder.Services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-
-            }).AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = false;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                };
-            });
+                .AddDomainService().AddSecurity(builder.Configuration);
 
             var app = builder.Build();
 
