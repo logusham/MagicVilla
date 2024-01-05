@@ -2,7 +2,9 @@
 using MagicVilla_Model;
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_Web.Services.IServices;
+using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using System.Net.Http.Headers;
 using System.Text;
 
 namespace MagicVilla_Web.Services
@@ -12,7 +14,6 @@ namespace MagicVilla_Web.Services
         public APIResponse responseModel { get ; set ; }
 
         public IHttpClientFactory httpClient { get; set; }
-
         public BaseService(IHttpClientFactory httpClient)
         {
             this.responseModel = new();
@@ -48,6 +49,10 @@ namespace MagicVilla_Web.Services
                         break;
                 }
                 HttpResponseMessage? apiResponse = null;
+                if(!string.IsNullOrEmpty(aPIRequest.Token))
+                {
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", aPIRequest.Token);
+                }
                 apiResponse = await client.SendAsync(message);
                 var apiContent = await apiResponse.Content.ReadAsStringAsync();
                 try

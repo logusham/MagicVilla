@@ -35,6 +35,7 @@ namespace MagicVilla_VillaAPI.DependencyInjection
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+               // x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
             }).AddJwtBearer(x =>
@@ -47,6 +48,8 @@ namespace MagicVilla_VillaAPI.DependencyInjection
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(key)),
                     ValidateIssuer = true,
                     ValidateAudience = true,
+                    //RequireExpirationTime = true,
+                    //ValidateLifetime = true,
                 };
             });
             return services;

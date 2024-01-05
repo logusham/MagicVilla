@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MagicVilla.Utility;
 using MagicVilla_Service.IService;
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
@@ -23,13 +24,14 @@ namespace MagicVilla_Web.Controllers
         public async Task<IActionResult> IndexVilla()
         {
             List<VillaDto> list = new();
-            var response = await _villaService.GetAllAsync<APIResponse>();
+            var response = await _villaService.GetAllAsync<APIResponse>(HttpContext.Session.GetString(SD.SessionToken));
             if (response != null && response.IsSuccess)
             {
                 list = JsonConvert.DeserializeObject<List<VillaDto>>(Convert.ToString(response.Result));
             }
             return View(list);
         }
+        [HttpGet]
         public async Task<IActionResult> CreateVilla()
         {
             return View();
@@ -40,7 +42,7 @@ namespace MagicVilla_Web.Controllers
         {
             if(ModelState.IsValid)
             {
-                var response = await _villaService.CreateAsync<APIResponse>(model);
+                var response = await _villaService.CreateAsync<APIResponse>(model, HttpContext.Session.GetString(SD.SessionToken));
                 if(response != null && response.IsSuccess)
                 {
                     TempData["success"] = "Villa Create Successfully";
@@ -52,7 +54,7 @@ namespace MagicVilla_Web.Controllers
         }
         public async Task<IActionResult> UpdateVilla(int villaId)
         {
-            var response = await _villaService.GetAsync<APIResponse>(villaId);
+            var response = await _villaService.GetAsync<APIResponse>(villaId, HttpContext.Session.GetString(SD.SessionToken));
             if (response != null && response.IsSuccess)
             {
                 VillaDto model = JsonConvert.DeserializeObject<VillaDto>(Convert.ToString(response.Result));
@@ -67,7 +69,7 @@ namespace MagicVilla_Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var response = await _villaService.UpdateAsync<APIResponse>(model);
+                var response = await _villaService.UpdateAsync<APIResponse>(model, HttpContext.Session.GetString(SD.SessionToken));
                 if (response != null && response.IsSuccess)
                 {
                     TempData["success"] = "Villa Update Successfully";
@@ -85,7 +87,7 @@ namespace MagicVilla_Web.Controllers
                 if(villaId != 0)
                 {
                     TempData["success"] = "Villa Deleted Successfully";
-                    await _villaService.DeleteAsync<APIResponse>(villaId);
+                    await _villaService.DeleteAsync<APIResponse>(villaId, HttpContext.Session.GetString(SD.SessionToken));
                     return RedirectToAction(nameof(IndexVilla));
                 }
             }

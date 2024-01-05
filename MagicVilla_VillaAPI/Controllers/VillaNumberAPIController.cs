@@ -2,6 +2,7 @@
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_VillaAPI.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -10,6 +11,7 @@ namespace MagicVilla_VillaAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "admin")]
     public class VillaNumberAPIController : ControllerBase
     {
         private readonly IVillaNumberRepository _villaNumberRepo;
@@ -25,6 +27,7 @@ namespace MagicVilla_VillaAPI.Controllers
             _response = new();
         }
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<APIResponse>> GetAll()
         {
             try
@@ -44,6 +47,7 @@ namespace MagicVilla_VillaAPI.Controllers
 
         }
         [HttpGet("{id:int}", Name = "GetVillaNumber")]
+        [AllowAnonymous]
         public async Task<ActionResult<APIResponse>> Get(int id)
         {
             try

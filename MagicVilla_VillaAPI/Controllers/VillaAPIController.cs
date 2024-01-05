@@ -12,6 +12,7 @@ namespace MagicVilla_VillaAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles ="admin")]
     public class VillaAPIController : ControllerBase
     {
         private readonly IVillaRepository _repo;
@@ -32,7 +33,7 @@ namespace MagicVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        [Authorize]
+        [AllowAnonymous]
         public async Task<ActionResult<APIResponse>> GetVillas()
         {
             _loging.Log("Getting All Villas", "error");
@@ -53,13 +54,13 @@ namespace MagicVilla_VillaAPI.Controllers
             }
             return _response;
         }
-        [Authorize(Roles ="admin")]
         [HttpGet("{id:int}", Name = "GetVilla")]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [AllowAnonymous]
         public async Task<ActionResult<APIResponse>> GetVilla(int id)
         {
             try
@@ -139,7 +140,6 @@ namespace MagicVilla_VillaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [Authorize(Roles ="CUSTOM")]
         public async Task<ActionResult<APIResponse>> Delete(int id)
         {
             try
