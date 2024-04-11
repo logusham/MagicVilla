@@ -1,18 +1,17 @@
 using MagicVilla_Service.IService;
 using MagicVilla_Service;
-using MagicVilla_VillaAPI.Mapper;
-using MagicVilla_VillaAPI.Repository;
-using MagicVilla_VillaAPI.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using MagicVilla_Web.DependencyInjuction;
+using MagicVilla_Web.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDomainService();
-builder.Services.AddAutoMapper(typeof(Profiles).Assembly);
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddDistributedMemoryCache();
+builder.Services.AddDomainService().AddConfigures(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(Profiles).Assembly);
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>

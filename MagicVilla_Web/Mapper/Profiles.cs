@@ -2,7 +2,7 @@
 using MagicVilla_VillaAPI.Models;
 using MagicVilla_VillaAPI.Models.Dtos;
 
-namespace MagicVilla_VillaAPI.Mapper
+namespace MagicVilla_Web.Mapper
 {
     public class Profiles :Profile
     {

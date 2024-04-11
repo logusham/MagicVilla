@@ -1,5 +1,6 @@
 ﻿using MagicVilla_Service.IService;
 using MagicVilla_Service;
+using MagicVilla_Entity.Helper;
 
 namespace MagicVilla_Web.DependencyInjuction
 {
@@ -15,6 +16,12 @@ namespace MagicVilla_Web.DependencyInjuction
 
             services.AddHttpClient<IAuthService, AuthService>();
             services.AddScoped<IAuthService, AuthService>();
+
+            return services;
+        }
+        public static IServiceCollection AddConfigures(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.Configure<ServiceUrls>(configuration.GetSection("ServiceUrls"));
 
             return services;
         }

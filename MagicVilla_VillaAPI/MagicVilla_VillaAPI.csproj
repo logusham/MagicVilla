@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="8.0.0-preview.2.23153.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.15" />
@@ -25,8 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MagicVilla_DataRepository\MagicVilla_DataRepository.csproj" />
-    <ProjectReference Include="..\MagicVilla_Dtos\MagicVilla_Dtos.csproj" />
+    <ProjectReference Include="..\MagicVilla_ApiService\MagicVilla_ApiService.csproj" />
   </ItemGroup>
 
 </Project>

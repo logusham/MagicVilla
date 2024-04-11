@@ -1,9 +1,11 @@
 ﻿using MagicVilla.Utility;
 using MagicVilla_Dtos;
+using MagicVilla_Entity.Helper;
 using MagicVilla_Model;
 using MagicVilla_Service.IService;
 using MagicVilla_Web.Services;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +18,14 @@ namespace MagicVilla_Service
     public class AuthService : BaseService, IAuthService
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IOptions<ServiceUrls> _configServiceUrls;
         private string villaUrl;
 
-        public AuthService(IHttpClientFactory httpClientFactory,IConfiguration configuration) : base(httpClientFactory)
+        public AuthService(IHttpClientFactory httpClientFactory,IOptions<ServiceUrls> configServiceUrls) : base(httpClientFactory)
         {
             this._httpClientFactory = httpClientFactory;
-            villaUrl = configuration.GetValue<string>("ServiceUrls:VillaAPI");
+            this._configServiceUrls = configServiceUrls;
+            villaUrl = _configServiceUrls.Value.VillaAPI;
         }
         public Task<T> LoginAsync<T>(LoginRequestDto dto)
         {

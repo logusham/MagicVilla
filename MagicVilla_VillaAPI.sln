@@ -31,12 +31,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Utility", "Magic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{657B3687-AD85-47F7-8791-7AD13096ED85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Service", "MagicVilla_Service\MagicVilla_Service.csproj", "{0D050EAE-2132-4585-9020-D110A3D6135A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_WebService", "MagicVilla_Service\MagicVilla_WebService.csproj", "{0D050EAE-2132-4585-9020-D110A3D6135A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AEB89CBB-63DF-45ED-9428-F2BACCF42394}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_ApiService", "MagicVilla_ApiService\MagicVilla_ApiService.csproj", "{7901FC41-357D-4B3A-994B-27B924CB9DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 		{0D050EAE-2132-4585-9020-D110A3D6135A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D050EAE-2132-4585-9020-D110A3D6135A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D050EAE-2132-4585-9020-D110A3D6135A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7901FC41-357D-4B3A-994B-27B924CB9DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7901FC41-357D-4B3A-994B-27B924CB9DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7901FC41-357D-4B3A-994B-27B924CB9DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7901FC41-357D-4B3A-994B-27B924CB9DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{4C627B81-DD77-47DE-A799-AC1D48466BAA} = {F248E3CD-8F7C-4EC5-9A6A-DD94C4AA7188}
 		{1821DCA6-420E-4DE3-8B7B-C249BB69A180} = {69977358-E97E-44CF-910D-D27FF36F8E78}
 		{0D050EAE-2132-4585-9020-D110A3D6135A} = {657B3687-AD85-47F7-8791-7AD13096ED85}
+		{7901FC41-357D-4B3A-994B-27B924CB9DF2} = {657B3687-AD85-47F7-8791-7AD13096ED85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8FF115F-3CD8-47AE-8C45-5F66CE28D59D}

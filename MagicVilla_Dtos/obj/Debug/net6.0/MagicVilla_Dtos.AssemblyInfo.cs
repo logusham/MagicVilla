@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MagicVilla_Dtos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f2601d179d20728c8fc4a327bc4ef31aeb9fe6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb29bf88d40ffb9c97518bcc487a2601cc9d4ade")]
 [assembly: System.Reflection.AssemblyProductAttribute("MagicVilla_Dtos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MagicVilla_Dtos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -369,12 +369,8 @@ C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla
 C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.pdb
 C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.genruntimeconfig.cache
 C:\Users\s1124\OneDrive - sbnasoftware.com\Desktop\ASP.Net\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\ref\MagicVilla_Web.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\appsettings.Production.json
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\appsettings.Development.json
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\appsettings.json
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.deps.json
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.runtimeconfig.json
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.exe
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Web.staticwebassets.runtime.json
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Web.exe
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Web.deps.json
@@ -391,9 +387,6 @@ D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.Helpe
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Web.WebPages.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -418,24 +411,10 @@ D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Identi
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.AspNetCore.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Sinks.Console.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Serilog.Sinks.File.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.Drawing.Common.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -459,21 +438,16 @@ D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\runtimes\win\lib
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_DataRepository.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Dtos.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Entity.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Service.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Utility.dll
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.dll
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Dtos.pdb
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Entity.pdb
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Service.pdb
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_DataRepository.pdb
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_Utility.pdb
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_VillaAPI.pdb
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.csproj.AssemblyReference.cache
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.AssemblyInfoInputs.cache
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.AssemblyInfo.cs
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.csproj.CoreCompileInputs.cache
-D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.MvcApplicationPartsAssemblyInfo.cs
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.MvcApplicationPartsAssemblyInfo.cache
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.RazorAssemblyInfo.cache
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.RazorAssemblyInfo.cs
@@ -494,3 +468,7 @@ D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\refint\MagicVill
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.pdb
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\MagicVilla_Web.genruntimeconfig.cache
 D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\obj\Debug\net6.0\ref\MagicVilla_Web.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_WebService.dll
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\MagicVilla_WebService.pdb
+D:\ASP.Net\WorkSpace\MagicVilla\MagicVilla_Web\bin\Debug\net6.0\Microsoft.Extensions.Http.dll

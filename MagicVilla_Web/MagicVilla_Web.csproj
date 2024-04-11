@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MagicVilla_Dtos\MagicVilla_Dtos.csproj" />
-    <ProjectReference Include="..\MagicVilla_Model\MagicVilla_Entity.csproj" />
-    <ProjectReference Include="..\MagicVilla_Service\MagicVilla_Service.csproj" />
+    <ProjectReference Include="..\MagicVilla_Service\MagicVilla_WebService.csproj" />
   </ItemGroup>
 
 </Project>

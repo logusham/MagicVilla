@@ -1,20 +1,25 @@
 ﻿using MagicVilla.Utility;
+using MagicVilla_Entity.Helper;
 using MagicVilla_Model;
 using MagicVilla_Service.IService;
 using MagicVilla_VillaAPI.Models.Dtos;
 using MagicVilla_Web.Services;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using System.Net.Http;
 
 namespace MagicVilla_Service
 {
     public class VillaService : BaseService, IVillaService
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IOptions<ServiceUrls> _configServiceUrls;
         private string villaUrl;
-        public VillaService(IHttpClientFactory httpClientFactory, IConfiguration configuration) : base(httpClientFactory)
+        public VillaService(IHttpClientFactory httpClientFactory,IOptions<ServiceUrls> configServiceUrls) : base(httpClientFactory)
         {
             this._httpClientFactory = httpClientFactory;
-            villaUrl = configuration.GetValue<string>("ServiceUrls:VillaAPI");
+            _configServiceUrls = configServiceUrls;
+            villaUrl = _configServiceUrls.Value.VillaAPI;
         }
         public Task<T> CreateAsync<T>(VillaCreateDto dto, string token)
         {
