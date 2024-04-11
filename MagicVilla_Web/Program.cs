@@ -9,15 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDomainService();
 builder.Services.AddAutoMapper(typeof(Profiles).Assembly);
-builder.Services.AddHttpClient<IVillaService, VillaService>();
-builder.Services.AddScoped<IVillaService, VillaService>();
-builder.Services.AddHttpClient<IVillaNumberService, VillaNumberService>();
-builder.Services.AddScoped<IVillaNumberService, VillaNumberService>();
-builder.Services.AddHttpClient<IAuthService, AuthService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddDistributedMemoryCache();
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
